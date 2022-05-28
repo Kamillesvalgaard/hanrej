@@ -1,0 +1,1083 @@
+/*
+Theme Name: Hanrej Theme
+Theme URI: https://www.andersnoren.se/teman/hamilton-wordpress-theme/
+Template: hamilton
+Author: Child Theme Configurator
+Author URI: https://www.andersnoren.se
+Description: Hamilton is a clean WordPress portfolio theme for creatives. It displays posts in a beautiful image grid that can be set to either two or three columns, which makes it a perfect fit for photographers, illustrators or graphic designers looking for a theme for their portfolio. It also features Block Editor/Gutenberg support, a dark mode, custom background color support, a resume page template, responsive design, Jetpack infinite scroll support, editor styling, and much more. Demo: https://andersnoren.se/themes/hamilton/
+Tags: blog,two-columns,three-columns,custom-menu,featured-images,threaded-comments,translation-ready,grid-layout,custom-background,custom-logo,editor-style,sticky-post,theme-options,portfolio,photography,block-styles,wide-blocks
+Version: 2.0.7.1650440012
+Updated: 2022-04-20 09:33:32
+
+*/
+
+@import url("https://use.typekit.net/ltw3gaj.css");
+
+body {
+  font-family: "Garamond";
+}
+
+/* PRÆSENTATIONSSIDE */
+
+.page-header,
+.page-id-19 .site-header,
+.page-id-19 .site-footer,
+.post-edit-link {
+  display: none;
+}
+
+#h1 {
+  font-family: "Goudy Old Style", serif;
+  font-style: italic;
+}
+
+.entry-content .alignnone,
+.entry-content .aligncenter,
+.entry-content .alignwide,
+.entry-content .alignfull {
+  margin-top: 0;
+}
+
+#enter {
+  font-family: "Goudy Old Style", serif;
+  font-style: italic;
+  margin-top: 40vh;
+  text-transform: uppercase;
+}
+
+/* FORSIDE */
+
+.site-header .site-title a {
+  font-family: "Goudy Old Style", serif;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: xx-large;
+  margin-left: -5vw;
+}
+
+.forsideknap {
+  border: #121212 solid 2px;
+}
+
+.forsideknap a {
+  font-family: "Proxima Nova", sans-serif;
+  padding: 1vw;
+  font-weight: normal;
+}
+
+.forsideknap a:hover {
+  text-decoration: underline;
+}
+
+.site-nav {
+  margin-top: 50px;
+  font-family: "Proxima Nova", sans-serif;
+}
+
+.theme-by,
+.webforside {
+  display: none;
+}
+
+.menu-item i._mi {
+  text-decoration: none;
+}
+
+.menu-item-932 span {
+  display: none;
+}
+
+.site-header {
+  padding: 10px;
+}
+
+.wp-block-columns .alignfull {
+  margin-bottom: -7vh;
+}
+
+wp-block-button__link {
+  font-family: "Garamond ATF", serif;
+}
+
+.forsidetekst,
+ul {
+  font-family: "Proxima Nova", sans-serif;
+}
+
+h2,
+h3,
+div.wpforms-container-full .wpforms-form .wpforms-field-label,
+div.wpforms-container-full .wpforms-form .wpforms-field-sublabel,
+div.wpforms-container-full .wpforms-form input[type="submit"],
+div.wpforms-container-full .wpforms-form button[type="submit"],
+div.wpforms-container-full .wpforms-form .wpforms-page-button {
+  font-family: "Garamond ATF", serif;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+#forsidering {
+  margin-bottom: -3vh;
+}
+
+#forsidearm {
+  margin-bottom: -20vh;
+}
+
+#menu-footer,
+#webforsideoverst,
+#webforsidenederst {
+  display: none;
+}
+
+#shopbraces {
+  z-index: 10;
+}
+
+:root *[class*="_inner-container"] > *:last-child {
+  margin-top: 30vh;
+}
+
+.site-nav ul:first-child li {
+  text-decoration: none;
+}
+
+.is-form-style input.is-search-submit,
+.is-search-icon {
+  background: #ffffff;
+  color: #121212;
+}
+
+/* FOOTER */
+
+#email {
+  background-color: #121212;
+  color: #ffffff;
+  padding: 5vw;
+  margin-bottom: -1vh;
+  margin-top: 2vh;
+}
+
+#email p {
+  margin-bottom: 7vh;
+}
+
+#footer {
+  width: 100vw;
+  margin-left: -5vw;
+  margin-top: -5vh;
+}
+
+#footerlinks {
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  color: #ffffff;
+  font-family: "Proxima Nova", sans-serif;
+}
+
+#footerlinks a {
+  margin-top: 5vh;
+}
+
+#signup {
+  cursor: pointer;
+}
+
+#signup:hover {
+  text-decoration: underline;
+}
+
+.site-footer a {
+  text-decoration: underline;
+}
+
+.site-footer a:hover {
+  border: none;
+}
+
+#footerlogo {
+  width: 30%;
+  margin: auto;
+  margin-top: 5vh;
+}
+
+#trust {
+  width: 40%;
+  margin: auto;
+  margin-top: 5vh;
+  margin-bottom: -6vh;
+  background-color: #121212;
+}
+
+#social {
+  display: flex;
+  flex-direction: row;
+  background-color: #121212;
+  justify-content: space-evenly;
+}
+
+#social a img {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 6vh;
+}
+
+#input {
+  color: #ffffff;
+  font-size: small;
+  border: #ffffff 2px solid;
+  margin-top: 5vh;
+  margin-bottom: -5vh;
+}
+
+#termsagree {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+#signup {
+  border: #ffffff 2px solid;
+}
+
+/* ABOUT */
+
+#aboutpynt {
+  margin-top: -35vh;
+}
+
+#sustain {
+  margin-top: -5vh;
+}
+
+#abouttxt,
+#abouttxt2 {
+  margin-top: -5vh;
+}
+
+#aboutpynt2 {
+  transform: rotateY(180deg);
+}
+
+/* RETAILER */
+
+#retailerpynt {
+  margin-top: -25vh;
+}
+
+/* REFUND & RETURNS */
+
+#refundpynt {
+  margin-top: -30vh;
+}
+
+#refundtxt {
+  margin-top: -5vh;
+}
+
+/* PRIVACY POLICY*/
+
+#privacypynt {
+  margin-top: -25vh;
+}
+
+#privacytxt {
+  margin-top: -5vh;
+}
+
+/* TERMS & CONDITIONS */
+
+#termspynt {
+  margin-top: -30vh;
+}
+
+#termstxt {
+  margin-top: -5vh;
+}
+
+/* ACCESSORIES */
+
+#accesh2,
+#braceh2,
+#eyeh2,
+#neckh2,
+#jewelh2,
+#caph2,
+#ringh2 {
+  margin-top: 5vh;
+}
+
+.wc-block-grid__products .wc-block-grid__product-image img {
+  width: 350px;
+}
+
+/* SINGLE VIEW */
+
+.product_meta,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
+a .skip-link .button,
+.woocommerce a.button,
+.woocommerce .woocommerce-result-count,
+.woocommerce .woocommerce-ordering select,
+.comments-container,
+.posted_in {
+  display: none;
+}
+
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover {
+  background-color: #121212;
+}
+
+.woocommerce div.product p.price,
+.woocommerce div.product span.price {
+  color: #121212;
+}
+
+.woocommerce div.product div.images .flex-control-thumbs {
+  margin-top: 5vh;
+}
+
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt {
+  background-color: #ffffff;
+  font-family: "Proxima Nova", sans-serif;
+  color: #121212;
+  border: 1px solid #121212;
+  border-radius: 0%;
+  text-transform: uppercase;
+}
+
+.woocommerce .quantity .qty {
+  height: 5vh;
+  border: solid 1px #121212;
+}
+
+.wc-block-grid.has-3-columns .wc-block-grid__products {
+  margin-top: 5vh;
+  margin-bottom: -5vh;
+}
+
+#tilbage {
+  font-family: "Proxima Nova", sans-serif;
+}
+
+.postid-239 .page-header,
+.postid-256 .page-header,
+.postid-255 .page-header,
+.postid-252 .page-header,
+.postid-250 .page-header,
+.postid-249 .page-header,
+.postid-246 .page-header,
+.postid-245 .page-header,
+.postid-248 .page-header,
+.postid-247 .page-header,
+.postid-242 .page-header,
+.postid-244 .page-header {
+  display: grid;
+  margin-top: -5vh;
+  margin-bottom: -7vh;
+  text-transform: uppercase;
+}
+
+.woocommerce div.product form.cart {
+  margin-bottom: -5em;
+}
+
+.page-header p {
+  display: none;
+}
+
+div.wpforms-container-full .wpforms-form input[type="submit"],
+div.wpforms-container-full .wpforms-form button[type="submit"],
+div.wpforms-container-full .wpforms-form .wpforms-page-button {
+  background-color: #ffffff;
+  font-family: "Proxima Nova", sans-serif;
+  color: #121212;
+  border: 1px solid #121212;
+  border-radius: 0%;
+  text-transform: uppercase;
+}
+
+.is-form-style input.is-search-input {
+  text-transform: uppercase;
+  font-family: "Proxima Nova", sans-serif;
+}
+
+.woocommerce ul.products li.product .price {
+  color: #121212;
+  font-family: "Garamond ATF", serif;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.page-header .meta,
+.woocommerce div.product .woocommerce-tabs .panel h2 {
+  display: none;
+}
+
+.woocommerce-product-details__short-description {
+  display: none;
+}
+
+/* CARE INFO */
+
+#carelist {
+  font-family: "Garamond ATF", serif;
+}
+
+#carepynt {
+  margin-top: -30vh;
+}
+
+#caretxt {
+  margin-top: -5vh;
+}
+
+/* LOOP VIEW */
+.wc-block-grid.has-3-columns .wc-block-grid__product {
+  max-width: 70%;
+}
+
+.wc-block-grid__product-title,
+.wc-block-grid__product-price .price  {
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+/* CONTACT */
+
+#contactpynt {
+  margin-top: -25vh;
+}
+
+#contacttxt {
+  margin-top: -5vh;
+}
+
+/* BEYOND JEWELLERY */
+
+#beyondjewel {
+  margin-top: -35vh;
+  margin-bottom: -15vh;
+}
+
+#beyondh1 {
+  margin-top: -3vh;
+}
+
+.beyondweb,
+.friendsweb,
+.amaweb,
+#friendsrow,
+.friendsweb,
+#friendsweb {
+  display: none;
+}
+
+/* FRIENDS WITH BEES */
+
+#beejewel {
+  margin-top: -35vh;
+  margin-bottom: -15vh;
+}
+
+#beeh1 {
+  margin-top: -3vh;
+}
+
+/* AMA COLLECTION */
+
+#amajewel {
+  margin-top: -35vh;
+  margin-bottom: -15vh;
+}
+
+#amah1 {
+  margin-top: -3vh;
+}
+
+/* COLLECTIONS */
+#friendscol,
+#amacol {
+  margin-top: -5.5vh;
+}
+#amacol {
+  margin-bottom: -3vh;
+}
+
+h4,
+.amawebside,
+#amaweb,
+#amarow,
+#beyondrow,
+.beyondweb,
+#beyondweb {
+  display: none;
+}
+
+.page-id-355 .site-footer,
+.page-id-359 .site-footer,
+.page-id-352 .site-footer {
+  margin-top: 5vh;
+}
+
+@media screen and (min-width: 1200px) {
+  /* FORSIDE WEB */
+
+  .alt-nav li a:hover {
+    text-decoration: none;
+  }
+
+  .page-id-355 .site-footer,
+  .page-id-359 .site-footer,
+  .page-id-352 .site-footer {
+    margin-top: -20vh;
+  }
+
+  .mobilforside {
+    display: none;
+  }
+
+  .webforside,
+  #webforsideoverst,
+  #webforsidenederst {
+    display: flex;
+  }
+
+  .alt-nav ul {
+    background: #ffffff;
+  }
+
+  .alt-nav ul li a {
+    color: #121212;
+  }
+
+  .alt-nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+  #input {
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5vh;
+  }
+
+  #footer {
+    margin-left: -7vw;
+    margin-bottom: -15vh;
+    margin-top: -20vh;
+  }
+
+  #apart {
+    font-size: 7vh;
+  }
+
+  #email {
+    padding: 3vw;
+  }
+
+  #webforsidenederst {
+    margin-bottom: -35vh;
+    margin-top: -16vh;
+  }
+
+  .site-footer a {
+    border: none;
+  }
+
+  #footerlinks a:hover {
+    text-decoration: none;
+  }
+
+  .site-footer a:hover {
+    text-decoration: underline;
+  }
+
+  #social a img {
+    width: 60%;
+  }
+
+  #social {
+    justify-content: center;
+  }
+
+  #webforsideoverst {
+    margin-top: -7vh;
+  }
+
+  .site-header .site-title a {
+    font-size: 10vh;
+  }
+
+  .show-alt-nav .site-header {
+    align-items: center;
+  }
+
+  :root *[class*="_inner-container"] > *:last-child {
+    margin-top: 60vh;
+    font-family: "Proxima Nova", sans-serif;
+  }
+
+  .show-alt-nav .alt-nav-wrapper,
+  .no-js .alt-nav-wrapper {
+    margin-right: -5vw;
+  }
+
+  .wp-block-column {
+    padding: 0;
+  }
+
+  #eyewearweb,
+  #braceletsweb {
+    margin-right: -3vw;
+    z-index: 1;
+  }
+
+  #trust {
+    width: 15%;
+    margin-bottom: 3vh;
+  }
+
+  #footerlogo {
+    width: 10%;
+  }
+
+  /* COLLECTIONS */
+  #friendscol,
+  #amacol {
+    margin-top: -7vh;
+  }
+  #amacol {
+    margin-bottom: -10vh;
+  }
+
+  .amawebside,
+  #amaweb,
+  #amarow {
+    display: flex;
+  }
+
+  /* LOOP VIEW */
+  .page-id-278 .section-inner.thin,
+  .page-id-266 .section-inner.thin,
+  .page-id-275 .section-inner.thin,
+  .page-id-281 .section-inner.thin,
+  .page-id-269 .section-inner.thin,
+  .page-id-261 .section-inner.thin,
+  .page-id-272 .section-inner.thin {
+    max-width: none;
+  }
+
+  .wc-block-grid__products .wc-block-grid__product-image img {
+    margin: auto;
+  }
+
+  .wc-block-grid__product-title,
+  .wc-block-grid__product-price .price  {
+    font-weight: lighter;
+    text-decoration: none;
+  }
+
+  .wc-block-grid.has-3-columns .wc-block-grid__product {
+    max-width: 25%;
+    margin: 2vh;
+  }
+
+  /* .entry-content .alignfull {
+    margin: auto;
+  } */
+
+  .wc-block-grid.has-3-columns .wc-block-grid__products {
+    margin-left: 15vw;
+  }
+
+  .wc-block-grid__product .wc-block-grid__product-title {
+    font-size: medium;
+  }
+
+  .wc-block-grid__product .wc-block-grid__product-add-to-cart,
+  .wc-block-grid__product .wc-block-grid__product-onsale,
+  .wc-block-grid__product .wc-block-grid__product-price,
+  .wc-block-grid__product .wc-block-grid__product-rating {
+    font-size: large;
+  }
+
+  .wc-block-grid__product-image:hover {
+    animation-name: scalep2_kf;
+    animation-duration: 0.2s;
+    animation-fill-mode: both;
+  }
+
+  @keyframes scalep2_kf {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.05);
+    }
+  }
+
+  /* COLLECTIONS SINGLEVIEW */
+
+  .beyondtele,
+  .amatele,
+  .friendstele {
+    display: none;
+  }
+
+  .beyondweb,
+  .amaweb,
+  .friendsweb {
+    display: grid;
+  }
+
+  #beyondweb,
+  #amaweb,
+  #friendsweb {
+    display: flex;
+    margin-top: 2vh;
+  }
+
+  #beyondrow,
+  #amarow,
+  #friendsrow {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .explore {
+    margin-bottom: -3vh;
+  }
+
+  #friendscolh2 {
+    margin-top: -3vh;
+  }
+
+  .beyondtxt,
+  .friendstxt,
+  .amatxt {
+    max-width: 700px;
+    margin: auto;
+  }
+
+  /* PRODUCT SINGLEVIEW */
+
+  .postid-239 .page-header,
+  .postid-256 .page-header,
+  .postid-255 .page-header,
+  .postid-252 .page-header,
+  .postid-250 .page-header,
+  .postid-249 .page-header,
+  .postid-246 .page-header,
+  .postid-245 .page-header,
+  .postid-248 .page-header,
+  .postid-247 .page-header,
+  .postid-242 .page-header,
+  .postid-244 .page-header {
+    margin-top: -17.5vh;
+  }
+
+  .woocommerce-product-details__short-description {
+    display: grid;
+  }
+
+  .title {
+    font-size: 35px;
+  }
+
+  .woocommerce div.product p.price,
+  .woocommerce div.product span.price {
+    font-weight: bold;
+  }
+
+  .woocommerce-message {
+    border-top-color: #121212;
+  }
+
+  .page-header p,
+  .woocommerce div.product .woocommerce-tabs .panel p {
+    display: none;
+  }
+
+  .section-inner.thin {
+    max-width: 1000px;
+  }
+
+  .woocommerce #respond input#submit.alt:hover,
+  .woocommerce a.button.alt:hover,
+  .woocommerce button.button.alt:hover,
+  .woocommerce input.button.alt:hover {
+    color: #ffffff;
+    background-color: #121212;
+  }
+
+  .woocommerce .quantity .qty {
+    height: 6.5vh;
+  }
+
+  .woocommerce ul.products li.product .woocommerce-loop-category__title,
+  .woocommerce ul.products li.product .woocommerce-loop-product__title,
+  .woocommerce ul.products li.product h3 {
+    margin-top: -3vh;
+    text-align: center;
+    font-size: smaller;
+  }
+
+  .woocommerce ul.products li.product .price {
+    text-align: center;
+  }
+
+  /* ABOUT */
+
+  #therealm {
+    margin-top: 5vh;
+  }
+
+  #aboutpynt {
+    margin-top: -7vh;
+  }
+
+  #abouttxt,
+  #abouttxt2,
+  #abouttxt3,
+  #caretxt,
+  #caretxt2,
+  #caretxt3,
+  #carelist,
+  .contacttxt {
+    width: 700px;
+    margin: auto;
+  }
+
+  #instagramblok {
+    margin-left: 50vw;
+  }
+
+  /* CONTACT */
+
+  #contact {
+    margin-top: 5vh;
+  }
+
+  div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium,
+  div.wpforms-container-full,
+  div.wpforms-container-full .wpforms-form * {
+    max-width: 700px;
+  }
+
+  div.wpforms-container-full .wpforms-form input[type="submit"],
+  div.wpforms-container-full .wpforms-form button[type="submit"],
+  div.wpforms-container-full .wpforms-form .wpforms-page-button {
+    font-weight: lighter;
+  }
+
+  #contactpynt,
+  #retailerpynt,
+  #carepynt,
+  #refundpynt {
+    margin-top: -7vh;
+  }
+
+  /* REFUND */
+
+  #refundtxt,
+  #refundtxt1,
+  #refundtxt2,
+  #refundtxt3,
+  #refundtxt4,
+  #refundtxt5,
+  #refundtxt6,
+  #refundtxt7,
+  #refundtxt8,
+  #refundtxt9,
+  #refundtxt10,
+  #refundtxt11 {
+    width: 700px;
+    margin: auto;
+  }
+
+  #refundreturns {
+    margin-top: 5vh;
+  }
+
+  /* PRIVACY POLICY */
+
+  #privacypynt,
+  #termspynt {
+    margin-top: -7vh;
+  }
+
+  #privacy {
+    margin-top: 5vh;
+  }
+
+  #privacytxt,
+  #privacytxt1,
+  #privacytxt2,
+  #privacytxt4,
+  #privacytxt3,
+  #privacytxt5,
+  #privacytxt6,
+  #privacytxt7 {
+    width: 700px;
+    margin: auto;
+  }
+
+  /* TERMS */
+
+  #terms,
+  #retailer {
+    margin-top: 5vh;
+  }
+
+  #termstxt,
+  #termstxt1,
+  #termstxt2,
+  #termstxt3,
+  #termstxt4,
+  #termstxt5,
+  #termstxt6,
+  #termstxt7,
+  #termstxt8,
+  #termstxt9,
+  #termstxt10,
+  #termstxt11,
+  #termstxt12,
+  #termstxt13,
+  #termstxt14,
+  #termstxt15,
+  #termstxt16,
+  #termstxt17,
+  #termstxt18,
+  #termstxt19,
+  #termstxt20,
+  #termstxt21,
+  #termstxt22,
+  #termstxt23,
+  #termstxt24,
+  #termstxt25 {
+    width: 700px;
+    margin: auto;
+  }
+
+  .page-id-220 .site-footer,
+  .page-id-222 .site-footer,
+  .page-id-224 .site-footer,
+  .page-id-226 .site-footer,
+  .page-id-11 .site-footer,
+  .page-id-3 .site-footer,
+  .page-id-231 .site-footer,
+  .page-id-233 .site-footer,
+  .page-id-352 .site-footer,
+  .page-id-359 .site-footer,
+  .page-id-355 .site-footer {
+    margin-top: 10vh;
+  }
+
+  #posts {
+    margin-bottom: 5vh;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  #enterbaggrundsvid {
+    height: 100vh;
+  }
+
+  #h1 {
+    font-size: 60px;
+  }
+
+  #enter {
+    font-size: 35px;
+  }
+
+  #webforsideoverst {
+    margin-top: 0vh;
+  }
+
+  :root *[class*="_inner-container"] > *:last-child {
+    font-size: 40px;
+    z-index: 10;
+    margin-bottom: 3vh;
+  }
+
+  #webforsidenederst {
+    margin-bottom: -410px;
+  }
+
+  #footer {
+    margin-left: -7vw;
+    margin-top: 2vh;
+    z-index: -1;
+  }
+
+  #termsagree {
+    padding-bottom: -10vh;
+  }
+
+  #email {
+    padding: 1vw;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  #footer {
+    margin-left: -18vw;
+  }
+
+  :root *[class*="_inner-container"] > *:last-child {
+    margin-bottom: 5vh;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  #footer {
+    margin-left: -27vw;
+  }
+
+  :root *[class*="_inner-container"] > *:last-child {
+    margin-bottom: 10vh;
+  }
+
+  .show-alt-nav .site-header {
+    max-width: 400vw;
+  }
+}
+
+@media screen and (max-width: 389px) {
+  #h1 {
+    margin-top: -40vh;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #h1 {
+    margin-top: -80vh;
+  }
+}
